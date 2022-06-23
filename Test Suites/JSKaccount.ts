@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>JSKaccount</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6a60de00-f396-4ce3-973f-b19d63f7b0c6</testSuiteGuid>
+   <testCaseLink>
+      <guid>120240d8-67f9-403a-bfc5-16e7b5b2cd98</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LoginCB_JSK_DataFile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d46d0b35-1824-4fe2-b8bb-6e884d1eb601</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/JSK_acount</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d46d0b35-1824-4fe2-b8bb-6e884d1eb601</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>f1c5313c-42f9-464a-a6f3-34b25ff44be2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d46d0b35-1824-4fe2-b8bb-6e884d1eb601</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>321b38af-8ee2-4716-98f4-db46d07c7437</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
